@@ -1,4 +1,5 @@
 public class Cilindro {
+    //declarar a classe Cilindro
     private double altura;
     private double raio;
 
@@ -17,7 +18,7 @@ public class Cilindro {
     public void setAltura(double altura) {
         this.altura = altura;
     }
-
+//método de instância para calcular volume do cilindro
     public double calcularVolume(){
         return Math.PI * Math.pow(raio,2) * altura;
 
