@@ -2,6 +2,7 @@ package Aula1;
 
 public class MainPessoas {
     public static void main(String[] args) {
+        //p1 e p2 são instanciados
         Pessoas p1 = new Pessoas();
         Pessoas p2 = new Pessoas();
 
@@ -12,6 +13,7 @@ public class MainPessoas {
         double weight;
         String classification;
 
+        //Objeto p1
         p1.setNome("Érica");
         p1.setIdade(19);
         p1.setAltura(1.66);
@@ -27,7 +29,7 @@ public class MainPessoas {
         System.out.printf ("O seu índice é " + "%.2f.", indice);
         System.out.println ("\nEste índice indica que está" + classification + ".");
 
-
+        //Objeto p2
         p2.setNome("Jorge");
         p2.setIdade(21);
         p2.setAltura(1.75);
